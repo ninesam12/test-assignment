@@ -40,18 +40,6 @@ const Cards = () => {
                       sx={{
                         textAlign: "left",
                       }}
-                      //   subheader={
-                      //     data.operation_time &&
-                      //     data.operation_time.map((record) => {
-                      //       if (record.day === dayOfWeekName) {
-                      //         return (
-                      //           <div key={data.id}>
-                      //             {record.time_open} - {record.time_close}
-                      //           </div>
-                      //         );
-                      //       }
-                      //     })
-                      //   }
                     />
                     <div className="cardMedia">
                       <CardMedia
@@ -70,29 +58,6 @@ const Cards = () => {
                         image={data.images[2]}
                       />
                     </div>
-
-                    {/* <CardContent>
-                    <Grid container spacing={2}>
-                      <Grid item xs={6} sm={6}>
-                        <Grid container>
-                          <Grid container justify="space-evenly">
-                            <span style={{ fontSize: "16px" }}>
-                              {data.name}
-                            </span>
-                          </Grid>
-                        </Grid>
-                      </Grid>
-                      <Grid item xs={6} sm={6}>
-                        <Grid container>
-                          <Grid container justify="space-evenly">
-                            <span style={{ fontSize: "12px" }}>
-                              {data.rating}
-                            </span>
-                          </Grid>
-                        </Grid>
-                      </Grid>
-                    </Grid>
-                  </CardContent> */}
                   </CardActionArea>
                 </Card>
               </Grid>
