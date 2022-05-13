@@ -1,0 +1,39 @@
+.logo {
+  display: none;
+}
+
+.logo > img {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 0.7rem;
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    display: flex;
+  }
+}
+
+.MuiToolbar-root {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.placeList {
+  display: flex;
+  gap: 10px;
+}
+
+.Cards {
+  /* display: flex; */
+  gap: 10px;
+}
+
+.parentContainer {
+  width: 100%;
+}
+
+.TextField-without-border-radius fieldset {
+  border-radius: 1rem;
+}
